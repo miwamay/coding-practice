@@ -7,6 +7,7 @@
 赤：#c7254e
 */
 
+
 /* header*********** */
 .header__container {
   display: flex;
@@ -66,7 +67,7 @@
 
 /* *************MV */
 
-/* contactTODO:sectionで指定するもの何？ */
+/* contact */
 .contact {
   background-color: #ebb94d;
   color: white;
@@ -131,7 +132,7 @@
   font-size: 30px;
   margin-bottom: 15px;
 }
-.sytem__text {
+.system__text {
   color: #fff;
   text-align: center;
   font-size: 20px;
@@ -168,43 +169,186 @@
 .members {
   background-image: url(../images/low-angle-shot-of-rock-formation-1366909.jpg);
   background-size: cover;
+  color: #fff;
 }
 .members__container {
   width: 95%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 80px 0px 44px;
+  text-align: center;
 }
 .members__title {
-
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 .members__text {
-
+  font-weight: bold;
+  margin-bottom: 205px;
 }
 .members__wrapper {
   display: flex;
-  width: 810px;
-  justify-content: space-between;
+  width: 780px;
+  justify-content: space-evenly;
+  margin: 210px auto 0;
 }
 .profile {
   padding: 40px;
   border: 3px solid #fff;
-  width: 49%;
+  width: 43%;
+  position: relative;
 }
 .profile__image {
   border-radius: 50%;
+  position: absolute;
+  top: -167px;
+  right: 72px;
 }
 .profile__profession {
-
+  margin-bottom: 10px;
 }
 .profile__name {
-
+  margin-bottom: 10px;
 }
 .profile__text {
-
+  margin-bottom: 10px;
 }
 /************** members */
+
+/* contents *************/
+.contents {
+  background-image: url(../images/people-coffee-meeting-team-7096.jpg);
+  background-size: cover;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.contents__container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contents__title {
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 3px #000;
+}
+.contents__text {
+  color: #fff;
+  margin-bottom: 40px;
+  text-shadow: 1px 2px 3px #000;
+}
+.contents__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+}
+.table {
+  border: 3px solid #016ea9;
+  border-spacing: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 285px;
+}
+.table__header {
+  color: #FFF;
+  background-color: #016ea9;
+  padding: 15px;
+}
+.table__data {
+  background-color: #fff;
+  border-color: #fff;
+  border-bottom: 0.1px solid #eee;
+  padding: 12px;
+}
+/************** contnts */
+
+/* form *****************/
+.form {
+  background-color: #ebb94d;
+  padding: 80px;
+}
+.form__container {
+  width: 95%;
+  margin: 0 auto;
+}
+.form__title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.form__text {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.form__wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.form__input {
+  width: 100%;
+  padding: 20px 10px;
+  margin-bottom: 30px;
+  display: block;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.form__inputArea {
+  width: 100%;
+}
+.form__button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #da6b64;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.form__button:hover {
+  background-color: #c7254e;
+}
+
+/***************** form */
+
+/* FAQs ****************/
+.FAQs {
+  font-weight: bold;
+}
+.FAQs__container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.FAQs__title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.FAQs__wrapper {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.qa {
+  width: 100%;
+}
+.qa__q {
+  border: 2px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+}
+.fa-question-circle {
+  color: #016ea9;
+}
+.qa__a {
+  padding: 20px;
+}
+
+/**************** FAQs */
 
 /* footer */
 .footer {
