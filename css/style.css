@@ -315,8 +315,8 @@
 .profile__image {
   border-radius: 50%;
   position: absolute;
-  top: -45%;
-  right: 20%;
+  top: -170px;
+  left: calc(50% - 99px);
 }
 .profile__profession {
   margin-bottom: 10px;
@@ -351,32 +351,11 @@
     margin-bottom: 20px;
   }
   .profile__image {
-    top: -65%;
-    right: 31%;
-  }
-}
-@media screen and (max-width:768px) {
-  /* 改行 */
-  /* プロフィールの表示90％ */
-  .members__title {
-    font-size: 18px;
-  }
-  .members__text {
-    font-size: 12px;
-  }
-  .profile {
-    margin-bottom: 140px;
-    font-size: 12px;
-    width: 90%;
-  }
-  .profile__image {
     height: 120px;
-    top: -50%;
-    right: 40%;
+    top: -90px;
+    left: calc(50% - 60px);
   }
 }
-
-
 /************** members */
 
 /* contents *************/
@@ -436,7 +415,6 @@
   .table {
     margin-bottom: 20px;
     width: 100%;
-    min-width: 460px;
   }
 }
 
