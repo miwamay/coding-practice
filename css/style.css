@@ -17,7 +17,7 @@
 .header {
   background-color: #fff;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 100;
 }
 .header__container {
