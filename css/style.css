@@ -7,12 +7,6 @@
 赤：#c7254e
 */
 
-/* small */
-.body {
-  width: 100%;
-}
-
-
 /* header*********** */
 .header {
   background-color: #fff;
@@ -61,8 +55,8 @@
   right: 50px;
   background-color: #ececec;
   padding: 20px;
+  color: rgb(34, 34, 34);
 }
-/* responsive-header *****/
 @media screen and (max-width:768px) {
   .header__container{
     padding: 0;
@@ -97,8 +91,12 @@
   .header__title {
     font-size: 10px;
   }
+  .topBtn {
+    bottom: 10vw;
+    right: 10vw;
+    /* TODO: アイコンの下のスペースへんだよ */
+  }
 }
-/*** responsive-header */
 /* *************header */
 
 /* MV*******************/
@@ -158,8 +156,6 @@
 .contact__button {
   background-color: #da6b64;
   margin-bottom: 30px;
-  /* padding: 10px 200px; */
-  /* padding: 10px 0; */
   height: 100px;
   width: 70%;
   border-radius: 60px;
@@ -254,7 +250,6 @@
 .system__stepText {
   line-height: 35px;
 }
-/* res-system ****/
 @media screen and (max-width:1189px) {
   .system__title {
     font-size: 24px;
@@ -307,21 +302,21 @@
 }
 .members__wrapper {
   display: flex;
-  max-width: 780px;
   justify-content: space-evenly;
+  max-width: 780px;
   margin: 210px auto 0;
 }
 .profile {
+  position: relative;
   padding: 40px;
   border: 3px solid #fff;
   width: 43%;
-  position: relative;
 }
 .profile__image {
-  border-radius: 50%;
   position: absolute;
   top: -170px;
   left: calc(50% - 99px);
+  border-radius: 50%;
 }
 .profile__profession {
   margin-bottom: 10px;
@@ -332,8 +327,6 @@
 .profile__text {
   margin-bottom: 10px;
 }
-
-/* res-members */
 @media screen and (max-width:991px) {
   .members__container {
     padding: 50px 0px;
@@ -367,8 +360,8 @@
 .contents {
   background-image: url(../images/people-coffee-meeting-team-7096.jpg);
   background-size: cover;
-  font-weight: bold;
   padding: 50px 0;
+  font-weight: bold;
 }
 .contents__container {
   width: 95%;
@@ -395,13 +388,13 @@
   border: 3px solid #016ea9;
   border-spacing: 0;
   border-radius: 6px;
-  overflow: hidden;
   width: 285px;
+  overflow: hidden;
 }
 .table__header {
-  color: #FFF;
   background-color: #016ea9;
   padding: 15px;
+  color: #FFF;
 }
 .table__data {
   background-color: #fff;
@@ -409,7 +402,6 @@
   border-bottom: 0.1px solid #eee;
   padding: 12px;
 }
-
 @media screen and (max-width:768px) {
   .contents__wrapper {
     flex-direction: column;
@@ -422,7 +414,6 @@
     width: 100%;
   }
 }
-
 /************** contnts */
 
 /* form *****************/
@@ -435,25 +426,25 @@
   margin: 0 auto;
 }
 .form__title {
-  text-align: center;
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
 }
 .form__text {
-  text-align: center;
   margin-bottom: 30px;
   font-weight: bold;
+  text-align: center;
 }
 .form__wrapper {
   width: 80%;
   margin: 0 auto;
 }
 .form__input {
+  display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 25px;
-  display: block;
   background-color: #fff;
   border-radius: 5px;
   font-size: 14px;
@@ -497,9 +488,9 @@
   padding: 30px 0;
 }
 .FAQs__title {
+  margin-bottom: 30px;
   text-align: center;
   font-size: 25px;
-  margin-bottom: 30px;
 }
 .FAQs__wrapper {
   width: 80%;
@@ -525,7 +516,6 @@
 .qa__a--first {
   display: block;
 }
-
 @media screen and (max-width:768px) {
   .FAQs__title {
     font-size: 24px;
@@ -539,14 +529,14 @@
 }
 /**************** FAQs */
 
-/* footer */
+/* footer ****************/
 .footer {
   padding: 30px 0;
   background-color: #ececec;
   text-align: center;
 }
 .footer__container {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
 }
 .footer__text {
@@ -559,12 +549,4 @@
 .footer__author {
   font-size: 10px;
 }
-/* footer */
-
-@media screen and (max-width:px) {
-
-}
-
-@media screen and (max-width:px) {
-  
-}
+/**************** footer */
